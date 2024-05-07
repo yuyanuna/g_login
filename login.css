@@ -1,0 +1,114 @@
+.container {
+    width: 340px; /* 容器的寬度 */
+    margin: auto; /* 自動左右居中 */
+    background-color: #fff; /* 背景顏色 */
+    padding: 30px; /* 內邊距 */
+    border-radius: 10px; /* 邊框的圓角 */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* 陰影效果 */
+}
+
+body {
+    font-family: Arial, sans-serif; /* 設置字體 */
+    background-color: #f2f2f2; /* 背景顏色 */
+    margin: 0;
+    padding: 0;
+    display: flex; /* 使用彈性盒模型 */
+    justify-content: center; /* 主軸居中對齊 */
+    align-items: center; /* 交叉軸居中對齊 */
+    height: 100vh; /* 將 body 的高度設置為視窗的高度 */
+    text-align: left; /* 所有文字靠左對齊 */
+}
+
+.login-button {
+    width: 100%; /* 將按鈕寬度設置為100% */
+    margin: 10px auto 0; /* 上邊距10px，左右自動居中 */
+}
+
+.create-account {
+    text-align: left; /* 將文字靠左對齊 */
+    margin-top: 10px; /* 上邊距 */
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container .top-text {
+    text-align: left; /* 文字左對齊 */
+}
+
+.container .top-text img {
+    width: 50px;
+    margin-bottom: 20px;
+    float: left; /* 將圖標靠左 */
+    margin-right: 300px; /* 添加一些右邊間距 */
+}
+
+.login-text {
+    font-size: 30px; /* 調整 "登入" 的字體大小 */
+}
+
+.icon,
+.text {
+    display: block; /* 設置為塊級元素 */
+    width: 100%; /* 設置寬度為100%，使其換行顯示 */
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.text > div {
+    font-size: 14px; /* 文字大小 */
+}
+
+.text > span {
+    margin-bottom: 10px; /* 增加底部間距 */
+}
+
+#email {
+    margin-top: 10px; /* 增加頂部間距 */
+}
+
+
+.additional-info span,
+#login-form p,
+#login-form button,
+.container p:nth-of-type(2),
+.container p:nth-of-type(3),
+.container p:nth-of-type(4){
+    font-size: 14px; /* 文字大小 */
+    color: #1a73e8; /* 將文字顏色設置為藍色 */
+}
+
+input[type="email"],
+button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #357AE8;
+}
+
+a {
+    color: #4285F4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

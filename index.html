@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google 登入</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+<div class="container">
+    <div class="top-text">
+        <div class="icon">
+            <img src="google_logo.png" alt="Google Logo">
+        </div>
+        <div class="text">
+            <span class="login-text">登入</span><br>
+            <span>使用您的Google帳戶</span>
+        </div>
+    </div>
+
+    <form id="login-form">
+        <input type="email" id="email" placeholder="電子郵件地址或電話號碼" required>
+        <p><a href="error_page.html">忘記電子郵件地址?</a></p><br>
+    </form>
+
+    <p>如果這不是你的電腦，請使用訪客模式以私密方式登入。</p>
+    <p><a href="error_page.html">進一部瞭解如何使用訪客模式</a></p><br>
+    <button class="login-button" type="submit" onclick="window.location.href='error_page.html';">登入</button>
+
+    <p><a href="error_page.html">建立帳戶</a></p>
+</div>
+
+<script src="g.js"></script>
+</body>
+</html>
